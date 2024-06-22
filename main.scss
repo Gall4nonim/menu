@@ -1,0 +1,27 @@
+@use 'colors';
+@import '_nav';
+@import '_buttons';
+@import '_animations';
+@import '_footer';
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 10vh;
+}
+body {
+	font-family: 'Courier New', sans-serif;
+	background-color: #0e0b0e;
+	// background-color: #040304;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1400px;
+	width: 100%;
+}
